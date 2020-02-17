@@ -1,0 +1,89 @@
+Field 23
+The stellar count in the model is: 356.30911040276237
+The ratio between the two zones is: 0.5270844828443231
+The star count density is: 120.6380715461274 +/- 11.556025236324015
+
+Field 62
+The stellar count in the model is: 498.5741128524043
+The ratio between the two zones is: 1.105485837810209
+The star count density is: -16.81064058388845 +/- 8.475749377437092
+
+Field 130
+The stellar count in the model is: 489.0654679717253
+The ratio between the two zones is: 1.099023523531967
+The star count density is: -15.353821592935644 +/- 8.168859628592937
+
+Field 131
+The stellar count in the model is: 630.4761114582402
+The ratio between the two zones is: 1.3442987451135187
+The star count density is: -57.05869662835343 +/- 9.297905248254416
+
+Field 132
+The stellar count in the model is: 810.9886529101848
+The ratio between the two zones is: 1.5330598353689693
+The star count density is: -98.25388603142326 +/- 10.657453787848555
+
+Field 133
+The stellar count in the model is: 689.2766201171102
+The ratio between the two zones is: 1.4211889074579591
+The star count density is: -71.42539164933922 +/- 9.733073891730642
+
+Field 134
+The stellar count in the model is: 471.5066331528062
+The ratio between the two zones is: 2.0500288397948094
+The star count density is: -88.14110699007526 +/- 7.548343838315058
+
+Field 135
+The stellar count in the model is: 446.77811462426564
+The ratio between the two zones is: 1.5145020834720868
+The star count density is: -54.99207051603828 +/- 7.343601365548588
+
+Field 136
+The stellar count in the model is: 369.2206456507482
+The ratio between the two zones is: 0.5898093381002368
+The star count density is: 100.30443529267647 +/- 11.003101893350614
+
+Field 137
+The stellar count in the model is: 388.68261379878277
+The ratio between the two zones is: 1.3590301181775621
+The star count density is: -37.475406495906114 +/- 7.091598624989267
+
+Field 138
+The stellar count in the model is: 416.2730869853764
+The ratio between the two zones is: 0.8512742065140622
+The star count density is: 27.548073111599855 +/- 9.083276339321118
+
+Field 139
+The stellar count in the model is: 454.15644462718114
+The ratio between the two zones is: 1.29021717223631
+The star count density is: -37.013204575065636 +/- 7.913107019862216
+
+Field 140
+The stellar count in the model is: 339.6809626890349
+The ratio between the two zones is: 0.990323506382026
+The star count density is: 1.211327485753681 +/- 7.469596543113068
+
+Field 141
+The stellar count in the model is: 498.3135381096709
+The ratio between the two zones is: 1.1274061948182599
+The star count density is: -21.09121277515764 +/- 9.09301430643324
+
+Field 142
+The stellar count in the model is: 389.5788532349576
+The ratio between the two zones is: 0.5637899467944394
+The star count density is: 107.26731201602932 +/- 10.721291043157054
+
+Field 144
+The stellar count in the model is: 307.7379070831324
+The ratio between the two zones is: 0.44990922088177254
+The star count density is: 134.37931889888128 +/- 10.940165013876188
+
+Field 179
+The stellar count in the model is: 403.4759196025392
+The ratio between the two zones is: 1.0214580243102258
+The star count density is: -2.995024594536817 +/- 7.632152447734966
+
+Field 180
+The stellar count in the model is: 606.01661186399
+The ratio between the two zones is: 0.9223997136438203
+The star count density is: 18.273615819358437 +/- 10.557665216319823
