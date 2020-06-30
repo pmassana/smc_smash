@@ -71,7 +71,8 @@ def isochrone_plotter(isochrone_points, mag_g, mag_i, distance_modulus, field_nu
 
 #SMASH data
 field_list = ['3', '13', '18', '139']
-data_path = '/home/pol/PhD_DATA/SMASH_DATA/'
+radii_list = [2.39, 5.88, 5.57, 14.96]
+data_path = '/vol/ph/astro_data/pmassana/SMASH_DATA/'
 nrows = 2
 ncols = 2
 mag_g = [None]*4
@@ -84,7 +85,7 @@ for i in range(4):
 
 
 #Isochrone data
-isochrones_data = np.loadtxt('/home/pol/PhD_DATA/ISOCHRONES/PARSEC_table.dat')
+isochrones_data = np.loadtxt('/vol/ph/astro_data/pmassana/Isochrones/PARSEC_table.dat')
 
 old_metallicity = -1.
 young_metallicity = -0.4
@@ -124,14 +125,14 @@ print('Starting to plot fields...')
 
 for (i, axs) in zip(range(4), axes_list):
     counts, xedges, yedges, imag = axs.hist2d(mag_g[i] - mag_i[i], mag_g[i], bins = [xbins, ybins], cmin = 1, zorder = 1, cmap='Greys',
-        norm=colors.LogNorm(), label = 'SMASH', vmax=1e2)
+        norm=colors.LogNorm(), label = 'SMASH', vmax=1e2, rasterized=True)
     if i==0 or i==2:
         axs.scatter(young_points[0], young_points[1]+distance_modulus, c='blue', s=3.,
             label=f'{10**(log_age_young):.1f} yr isochrone')
     axs.scatter(old_points[0], old_points[1]+distance_modulus, c='red', s=3.,
         label=f'{10**(log_age_old):.1f} yr isochrone')
 
-    axs.annotate(f'Field {field_list[i]}', (1.,15))
+    axs.annotate(f'Field {field_list[i]} \n {radii_list[i]} degrees', (0.7,15.3), size = 16.)
     axs.set_xlabel('$g-i$')
     axs.set_ylabel('$g$')
     axs.set_ylim(24,14)
@@ -151,6 +152,6 @@ plt.colorbar(imag, orientation = 'horizontal', cax = colorbar_axis)
 colorbar_axis.xaxis.set_ticks_position('top')
 fig.tight_layout()
 
-plt.savefig('/home/pol/Documents/PhD/CMD_SMASH/Plots/CMD_isochrones_figure.pdf', rasterized=True)
+plt.savefig('/user/HS128/pm00518/Documents/PhD/CMD_SMASH/Plots/CMD_isochrones_figure.pdf', rasterized=True)
 
 
